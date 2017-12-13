@@ -4,40 +4,75 @@
     padding: 0px;
    }
    #wrapper{
-    width: 950px;
-    background-color: silver;
-    margin: 0px auto;
-    display: inline-block;
-   }
+    width: 970px;
+    background-color: navy;
+    margin: 10px auto;
+    padding: 10px;
+    }
    #header{
-    height: 150px;
-    background-color: green;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding: 5px;
+    background-color: red;
+    position: relative;
+    top: 20px;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: lightgrey
     }
    #navigation{
     height: 300px;
-    width: 220px;
-    background-color: blue;
+    width: 190px;
+    background-color: teal;
     display: inline-block;
     vertical-align: top;
+    border: 2px solid teal;
+    border-radius: 15px;
     }
    #main_content{
-    height: 400px;
-    width: 670px;
-    background-color: red;
+    height: 640px;
+    width: 715px;
+    background-color: black;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
     }
-   .subcontents{
-    height: 182px;
-    width: 182px;
-    background-color: yellow;
-    display: inline-block;
+    #myfooter{
+    height:60px;
+    width: 940px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding-top: 15px;
     }
-   #advertisement{
-    height: 120px;
-    width: 618px;
-    background-color: purple;
-    display: inline-block;
+    .nav-text-color{
+        color: lightblue;
+        padding-left: 10px;
+        margin: 0;
+    }
+    .compress {
+        height: 8px;
+    }
+    .nav-link-style{
+        text-decoration: underline;
+    }
+    h2 {
+        color: lightgray;
+    }
+    .textp {
+        color: lightgray;
+        padding-left: 15px;
+        margin: 0;
+    }
+    a {
+        color: lightblue;
+        margin: 0;
+    }
+    .highlight {
+        color: plum;
+        display: inline-block;
+        margin: 0;
+        padding-right: .25em;
+    }
+    .footersp {
+        padding-top: 10px;
     }
